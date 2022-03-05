@@ -116,27 +116,39 @@
 }
 
 .videoWrap__video {
-	width: 50%;
+	width: 620px;
+	height: 380px;
+	margin: 50px 0px;
+	border: 1px solid #ededed;
+	background-color: #ffffff;
+	border-radius: 15px;
 	display: flex;
-    justify-content: center;
-	align-items: center;
+	justify-content: center;
 }
 
-.videoWrap__video  video{
+.videoWrap__video img {
+	margin: auto;
+}
+
+/* .videoWrap__video  video{
 	width: 620px;
 	padding: 0px 20px;
 	border-radius: 10%;
-}
+} */
 
 .videoWrap__wrap {
-	padding: 50px;
-	width: 50%;
+	padding: 50px 0px;
+    width: 50%;
+    margin-left: 50px;
 }
 
 .videoWrap__content {
-	width: 1366px;
-	margin: 0 auto;
-	display: flex;
+	max-width: 1367px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
 }
 
 .videoWrap__title {
@@ -181,7 +193,11 @@
 }
 
 .advice__blog {
-	display: flex;
+	max-width: 1367px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 	padding: 20px 0px;
 	margin: 0 auto;
 }
