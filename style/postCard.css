@@ -1,0 +1,146 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	/* list-style: none; */
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.postCard {
+	padding-top: 160px;
+	margin: 0 auto;
+	max-width: 1367px;
+}
+
+.postCard__wrap {
+	margin: 0px 380px;
+}
+
+.postCard__title{
+	font-size: 30px;
+	color: #1f375a;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.postCard__desc {
+	font-size: 16px;
+	color: #1f375a;
+	margin-bottom: 30px;
+}
+
+.postCard__img {
+	width: 640px;
+	height: 340px;
+	margin: 30px 0px 30px -20px;
+}
+
+.postCard__img img{
+	width:100%;
+}
+
+.postCard__row--item {
+	font-size: 16px;
+	color: #1f375a;
+	margin-bottom: 30px;
+}
+
+.postCard__video {
+	width: 640px;
+	height: 340px;
+	margin: 30px 0px 30px -20px;
+	border: 1px solid #ededed;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.postCard__video img {
+	margin: auto;
+}
+
+.postCard__row--number {
+	list-style: auto;
+}
+
+.guarantee {
+	background-color: #1f375a;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guarantee__title {
+	font-size: 48px;
+	color: #fff;
+	padding: 50px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.guarantee__container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 40px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.guarantee__blog {
+	display: flex;
+	flex-direction: column;
+}
+
+.guarantee__wrap {
+	background-color: #fff;
+    border-radius: 15px;
+    width: 315px;
+    margin: 0 auto;
+	text-align: center;
+	margin: 0px 20px 40px 20px;
+}
+
+.guarantee__desc--title {
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+}
+
+.guarantee__blog--img img {
+	width: 315px;
+}
+
+.guarantee__desc--title {
+	padding: 20px 0px;
+}
+
+.guarantee__desc--desc {
+	font-size: 16px;
+	padding-bottom: 15px;
+	text-align: justify;
+	padding: 0px 20px;
+}
+
+.guarantee__desc--button span {
+	color: #fff;
+	background-color:#f84f5b;
+	border-radius: 30px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	width: 100%;
+	display: block
+}
+
+.guarantee__desc--button {
+	padding: 20px 20px;
+	display: block;
+}
+
+.guarantee__desc--button span:hover {
+	background-color:#1f375a;
+}

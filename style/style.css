@@ -1,9 +1,9 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	/* list-style: none; */
 	text-decoration: none;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container__top {
@@ -51,14 +51,21 @@
 	padding: 10px 20px;
 }
 
+.about__container {
+	max-width: 1367px;
+	display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .about {
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 	padding: 50px 0px;
 	margin: 0 auto;
-	width: 1366px;
 }
+
 
 .about__wrap {
 	display: flex;
@@ -68,6 +75,7 @@
     border-radius: 15px;
     padding: 50px 0px 20px 0px;
     width: 300px;
+	margin: 0px 15px 30px 15px;
 }
 
 .about__wrap--age {
@@ -156,6 +164,11 @@
 
 .advice {
 	padding: 50px 0px 30px 0px;
+    max-width: 1367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .advice__title {
@@ -170,7 +183,6 @@
 .advice__blog {
 	display: flex;
 	padding: 20px 0px;
-	width: 1366px;
 	margin: 0 auto;
 }
 
@@ -239,8 +251,9 @@
 .guarantee__container {
 	display: flex;
 	flex-direction: row;
-	width: 1366px;
 	padding: 40px 0px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .guarantee__blog {
@@ -251,9 +264,10 @@
 .guarantee__wrap {
 	background-color: #fff;
     border-radius: 15px;
-    width: 260px;
+    width: 315px;
     margin: 0 auto;
 	text-align: center;
+	margin: 0px 20px 40px 20px;
 }
 
 .guarantee__desc--title {
@@ -263,7 +277,7 @@
 }
 
 .guarantee__blog--img img {
-	width: 260px;
+	width: 315px;
 }
 
 .guarantee__desc--title {
