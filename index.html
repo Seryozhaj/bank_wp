@@ -15,36 +15,9 @@
 		<div class="menu">
 			<div class="menu__top">
 				<ul class="menu__top--left">
-					<li class="menu__top--item menu__top--item_active">
+					<li class="menu__top--item">
 						<a href="#">
 							Финансово-консалтинговый центр
-						</a>
-					</li>
-					<li class="menu__top--item">
-						<a href="">
-							Все банки
-						</a>
-					</li>
-					<li class="menu__top--item">
-						<a href="./pages/blog.html">
-							Блог компании
-						</a>
-					</li>
-					<li class="menu__top--item">
-						<a href="#">
-							Команда
-						</a>
-					</li>
-					<li class="menu__top--item">
-						<a href="#">
-							Контакты
-						</a>
-					</li>
-				</ul>
-				<ul class="menu__top--right">
-					<li class="menu__top--item">
-						<a href="#">
-							8 800 123 4567
 						</a>
 					</li>
 					<li class="menu__top--item">
@@ -52,29 +25,38 @@
 							Оставить заявку
 						</a>
 					</li>
+					<li class="menu__top--item">
+						<span class="menu__top--tel">8 800 123 ...</span>
+						<span class="menu__top--show menu__top--item_active">Показать</span>
+					</li>
 				</ul>
 			</div>
 
 			<div class="menu__wrap">
 				<ul class="menu__wrap--left">
-					<li class="menu__wrap--item">
-						<a href="#">
-							Банковская гарантия
+					<li class="menu__wrap--item ">
+						<a class="active-item" href="#">
+							О компании
 						</a>
 					</li>
 					<li class="menu__wrap--item">
 						<a href="#">
-							Гос. контракты
+							Услуги
 						</a>
 					</li>
 					<li class="menu__wrap--item">
 						<a href="./pages/postCard.html">
-							Коммерческие контракты
+							Блог
 						</a>
 					</li>
 					<li class="menu__wrap--item">
 						<a href="#">
-							Кредиты
+							Команда
+						</a>
+					</li>
+					<li class="menu__wrap--item">
+						<a href="#">
+							Контакты
 						</a>
 					</li>
 				</ul>
@@ -85,6 +67,42 @@
 						</a>
 					</li>
 				</ul>
+			</div>
+		</div>
+
+		<div class="mobile__menu">
+			<div class="mobile__menu--top">
+				<a href="">
+					Финансово-консалтинговый центр
+				</a>
+			</div>
+			<div class="mobile__menu--bottom">
+				<div class="mobile__menu--bottomItem bottomItem__burger">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+				<div class="mobile__menu--bottomItem bottomItem">
+					<a href="">Позванить</a>
+				</div>
+				<div class="mobile__menu--bottomItem bottomItem">
+					<a href="">Оставить заявку</a>
+				</div>
+			</div>
+			<div class="menu__open">
+				<div class="menu__open--item">
+					<a href="">О компании</a>
+				</div>
+				<div class="menu__open--item">
+					<a href="">Услуги</a>
+				</div>
+				<div class="menu__open--item">
+					<a href="">Блог</a>
+				</div>
+				<div class="menu__open--item">
+					<a href="">Команда</a>
+				</div>
+				<div class="menu__open--item">
+					<a href="">Контакты</a>
+				</div>
 			</div>
 		</div>
 	<!--menu-->
@@ -174,7 +192,7 @@
 				<span>В сложных обстоятельствах</span>
 				<span>и нестандартных ситуациях.</span>
 			</div>
-			<div class="advice__blog">
+			<div class="advice__blog advice__blog1">
 				<div class="advice__blog--wrap">
 					<div class="advice__blog--title">
 						<span>Банковская гарантия под</span>
@@ -191,7 +209,7 @@
 					<img src="./images/test.png" alt="">
 				</div>
 			</div>
-			<div class="advice__blog">
+			<div class="advice__blog advice__blog2">
 				<div class="advice__blog--img">
 					<img src="./images/test.png" alt="">
 				</div>
@@ -208,7 +226,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="advice__blog">
+			<div class="advice__blog advice__blog3">
 				<div class="advice__blog--wrap">
 					<div class="advice__blog--title">
 						<span>Банковская гарантия под</span>
@@ -227,6 +245,55 @@
 			</div>
 		</div>
 	<!--advice-->
+
+	<!-- oreder -->
+		<div class="order">
+			<div class="order__title">
+				<span>Отправь заявку на банковскую</span>
+				<span>гарантию во все банки</span>
+			</div>
+			<div class="order__bank">
+				<div>
+					<div class="order__item">
+						<img src="./images/bank1.png" alt="">
+						<span class="order__title--bank">
+							Сбер банк
+						</span>
+					</div>
+				</div>
+				<div>
+					<div class="order__item">
+						<img src="./images/bank2.png" alt="">
+						<span class="order__title--bank">
+							Банк втб
+						</span>
+					</div>
+				</div>
+				<div>
+					<div class="order__item">
+						<img src="./images/bank3.png" alt="">
+						<span class="order__title--bank">
+							Банк тинькоFF
+						</span>
+					</div>
+				</div>
+				<div>
+					<div class="order__item">
+						<img src="./images/bank4.png" alt="">
+						<span class="order__title--bank">
+							Райфайзен БАНК
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="order__button">
+				<a href="">
+					Подробнее
+				</a>
+			</div>
+		</div>
+	<!-- oreder -->
+
 
 	<!--guarantee-->
 		<div class="guarantee">
@@ -366,5 +433,9 @@
 			</div>
 		</div>
 	<!--footer-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+	<script type="text/javascript" src="./js/menu.js"></script>
+	<script src="https://kit.fontawesome.com/9925c92b04.js" crossorigin="anonymous"></script>
 </body>
 </html>

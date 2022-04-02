@@ -103,6 +103,8 @@
 	border-radius: 30px;
 	padding: 10px 65px;
 	font-size: 20px;
+	transition: 0.5s;
+	cursor: pointer;
 }
 
 .about__wrap--button:hover {
@@ -130,11 +132,6 @@
 	margin: auto;
 }
 
-/* .videoWrap__video  video{
-	width: 620px;
-	padding: 0px 20px;
-	border-radius: 10%;
-} */
 
 .videoWrap__wrap {
 	padding: 50px 0px;
@@ -172,6 +169,7 @@
 	border-radius: 30px;
 	padding: 10px 30px;
 	font-size: 20px;
+	cursor: pointer;
 }
 
 .advice {
@@ -189,7 +187,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 40px;
+	padding-bottom: 15px;
 }
 
 .advice__blog {
@@ -234,6 +232,7 @@
 	border-radius: 30px;
 	padding: 10px 30px;
 	font-size: 20px;
+	cursor: pointer;
 }
 
 .advice__blog--img {
@@ -246,8 +245,66 @@
 	width: 100%;
 }
 
-.guarantee {
+.order {
 	background-color: #1f375a;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order__title {
+	font-size: 48px;
+	color: #fff;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.order__bank {
+	display: flex;
+	flex-direction: row;
+	padding: 35px 0px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.order__item {
+	width: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px 0px;
+    margin: 0px 20px;
+    border-radius: 15px;
+}
+
+.order__title--bank {
+	font-size: 24px;
+    padding-top: 20px;
+}
+
+.order__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px 40px 0px;
+}
+
+.order__button a {
+	color: #fff;
+	background-color: #f84f5b;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+
+.guarantee {
+	background-color: #fff;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -256,18 +313,19 @@
 
 .guarantee__title {
 	font-size: 48px;
-	color: #fff;
-	padding: 50px 0px;
+	color: #1f375a;
+	padding-top: 35px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 .guarantee__container {
 	display: flex;
 	flex-direction: row;
-	padding: 40px 0px;
+	padding-top: 35px;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -315,7 +373,9 @@
 	font-size: 16px;
 	cursor: pointer;
 	width: 100%;
-	display: block
+	display: block;
+	cursor: pointer;
+	transition: 0.5s;
 }
 
 .guarantee__desc--button {
@@ -326,3 +386,209 @@
 .guarantee__desc--button span:hover {
 	background-color:#f84f5b;
 }
+
+
+/* media */
+
+	/* Extra large */
+	@media (max-width: 1440px) {
+
+		.videoWrap__video {
+			width: 530px;
+			height: 300px;
+		}
+
+		.videoWrap__wrap {
+			width: 40%;
+		}
+
+		.videoWrap__title {
+			font-size: 26px;
+		}
+
+		.videoWrap__desc {
+			font-size: 16px;
+		}
+
+		.advice__blog--img {
+			width: 530px;
+			height: 300px;
+		}
+		
+		.advice__blog--wrap {
+			width: 40%;
+		}
+
+		.advice__blog--title {
+			font-size: 26px;
+		}
+
+		.advice__blog--desc {
+			font-size: 16px;
+		}
+
+		.order__item {
+			margin: 20px;
+		}
+
+	}
+
+	/* Large */
+	@media (max-width: 992px) {
+		.advice__blog1 {
+			flex-direction: column-reverse;
+		}
+
+		.advice__blog3 {
+			flex-direction: column-reverse;
+		}
+
+		.videoWrap__wrap {
+			padding: 0px;
+			width: 85%;
+			margin: 0px;
+		}
+
+		.videoWrap__button {
+			display: flex;
+			justify-content: center;
+		}
+		
+		.videoWrap__title {
+			text-align: center;
+		}
+
+		.videoWrap__desc {
+			text-align: center;
+		}
+
+		.order__item {
+			margin: 20px;
+		}
+
+		.advice__blog--wrap {
+			width: 85%;
+			padding: 50px 50px 0px 50px;
+		}
+
+		.advice__blog--button {
+			display: flex;
+			justify-content: center;
+		}
+
+		.advice__blog--title {
+			text-align: center;
+		}
+
+		.advice__blog--desc {
+			text-align: center;
+		}
+	}
+
+	/* Medium */
+	@media (max-width: 768px) {
+		.menu {
+			display: none;
+		}
+
+		.container__top--title {
+			font-size: 36px;
+		}
+
+		.container__top--desc {
+			font-size: 22px;
+		}
+
+		.advice__title{
+			text-align: center;
+		}
+
+		.advice__title {
+			font-size: 36px;
+		}
+
+		.order__title {
+			font-size: 36px;
+		}
+
+		.guarantee__title {
+			font-size: 36px;
+		}
+	}
+
+	/* Small */
+	@media (max-width: 576px) {
+		.videoWrap__video {
+			width: 420px;
+			height: 230px;
+		}
+
+		.advice__blog--img {
+			width: 420px;
+			height: 230px;
+		}
+
+		.advice__title {
+			font-size: 30px;
+		}
+
+		.order__title {
+			font-size: 30px;
+		}
+
+		.guarantee__title {
+			font-size: 30px;
+		}
+
+		.advice__blog--title {
+			font-size: 22px;
+		}
+
+		.advice__blog--desc {
+			font-size: 14px;
+		}
+
+		.videoWrap__title {
+			font-size: 22px;
+		}
+
+		.videoWrap__desc {
+			font-size: 14px;
+		}
+
+		
+	}
+
+	/* Extra small */
+	@media (max-width: 480px) {
+		.videoWrap__video {
+			width: 260px;
+			height: 160px;
+		}
+
+		.advice__blog--img {
+			width: 260px;
+			height: 160px;
+		}
+		 
+		.about__wrap  {
+			margin: 0px 0px 30px 0px;
+		}
+
+		.guarantee__wrap  {
+			width: 260px;
+		}
+
+		.guarantee__blog--img img {
+			width: 260px;
+		}
+
+		.order__item  {
+			width: 260px;
+		}
+
+		.order__item img{
+			width: 100px;
+		}
+	}
+/* media */
