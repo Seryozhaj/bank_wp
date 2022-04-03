@@ -1,5 +1,13 @@
 /* menu */
 
+	* {
+		margin: 0px;
+		padding: 0px;
+		text-decoration: none;
+		box-sizing: border-box;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
 	.menu {
 		width: 100%;
 		background-color: #fff;
@@ -173,14 +181,8 @@
 		background-color: #1f375a;
 		border-radius: 50%;
 		color: #fff;
-		font-size: 24px;
+		font-size: 20px;
 	}
-
-	.bottomItem {
-		background-color: #ededed;
-    	border-radius: 30px;
-	}
-
 
 	.bottomItem a:hover {
 		color: #fff;
@@ -189,6 +191,7 @@
 	}
 
 	.bottomItem a {
+		background-color: #ededed;
 		padding: 10px 15px;
 		color:#1f375a;
 		border-radius: 30px;

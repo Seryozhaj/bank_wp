@@ -15,6 +15,8 @@
 
 .postCard__wrap {
 	margin: 0px 380px;
+	max-width: 590px;
+    margin: 0 auto;
 }
 
 .postCard__title{
