@@ -1,0 +1,663 @@
+.warranty__blog {
+	max-width: 1367px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+	padding: 20px 0px;
+	margin: 0 auto;
+}
+
+.warranty__blog--wrap {
+	width: 50%;
+	padding: 50px 20px 50px 20px;
+}
+
+.warranty__blog--title {
+	font-size: 48px;
+	display: flex;
+    flex-direction: column;
+	padding-bottom: 25px;
+}
+
+.warranty__blog--desc {
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
+.warranty__blog--button {
+	margin: 30px 0px;
+}
+
+.warranty__blog--img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.warranty__blog--button span{
+	color: #fff;
+	background-color:#f84f5b;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.warranty__blog--img {
+	width: 620px;
+	height: 370px;
+	margin: 0px 30px;
+}
+
+.warranty__blog--img img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.videoWrap {
+	color: #fff;
+	background-color: #1f375a;
+	display: flex;
+}
+
+.videoWrap__video {
+	width: 620px;
+	height: 380px;
+	margin: 50px 0px;
+	border: 1px solid #ededed;
+	background-color: #ffffff;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.videoWrap__video img {
+	margin: auto;
+}
+
+.videoWrap__wrap {
+	padding: 50px 0px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.videoWrap__content {
+	max-width: 1367px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+}
+
+.videoWrap__title {
+	font-size: 36px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px;
+}
+
+.videoWrap__desc {
+	font-size: 18px;
+}
+
+.videoWrap__button {
+	margin: 50px 0px;
+}
+
+.videoWrap__button span {
+	color: #fff;
+	background-color:#f84f5b;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.registerBlog {
+	color: #fff;
+	background-color: #1f375a;
+	display: flex;
+}
+
+.registerBlog__video {
+	width: 620px;
+	/* height: 380px; */
+	margin: 50px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.registerBlog__video img {
+	/* margin: auto; */
+	margin-right: 100px;
+}
+
+.registerBlog__wrap {
+	padding: 50px 0px;
+    width: 45%;
+    margin-left: 50px;
+}
+
+.registerBlog__content {
+	max-width: 1367px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+}
+
+.registerBlog__title {
+	font-size: 36px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px;
+}
+
+.registerBlog__desc {
+	font-size: 18px;
+}
+
+.registerBlog__input input {
+	padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #d3d3d3;
+    width: 180px;
+	margin: 30px 20px 0px 0px;
+}
+
+.registerBlog__button {
+	margin: 50px 0px;
+}
+
+.registerBlog__button span {
+	color: #fff;
+	background-color:#f84f5b;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.registerBlog__contact {
+	display: flex;
+	justify-content: left;
+}
+
+.services {
+	padding: 50px 0px 30px 0px;
+    max-width: 1367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.services__title {
+	font-size: 48px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 15px;
+}
+
+.services__blog {
+	max-width: 1367px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+	padding: 20px 0px;
+	margin: 0 auto;
+}
+
+.services__blog--wrap {
+	width: 50%;
+	padding: 50px;
+}
+
+.services__blog--title {
+	font-size: 36px;
+	display: flex;
+    flex-direction: column;
+	padding-bottom: 25px;
+}
+
+.services__blog--img {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.services__blog--desc {
+	font-size: 18px;
+}
+
+.services__blog--button {
+	margin: 30px 0px;
+}
+
+.services__blog--button span{
+	color: #fff;
+	background-color:#f84f5b;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.services__blog--img {
+	width: 620px;
+	height: 370px;
+	margin: 0px 30px;
+}
+
+.services__blog--img img {
+	width: 100%;
+}
+
+
+.contact__title {
+	font-size: 48px;
+	color: #1f375a;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.contact__form {
+	display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 2px #d3d3d3 solid;
+    margin: 40px auto;
+    border-radius: 30px;
+    box-shadow: #dddddd 0px 0px 10px;
+    position: relative;
+    padding-bottom: 130px;
+    max-width: 60%;
+    min-width: 1150px;
+}
+
+.contact__form form {
+	display: flex;
+}
+
+.contact__form--input {
+	margin: 20px;
+}
+
+.contact__form--input input {
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #d3d3d3;
+    width: 460px;;
+}
+
+.contact__form--button {
+	position: absolute;
+	bottom: 50px;
+}
+
+.contact__form--button{
+	background-color: #f84f5b;
+	color: #fff;
+    padding: 10px 80px;
+    border-radius: 30px;
+}
+
+/* media */
+
+	/* Extra large */
+	@media (max-width: 1440px) {
+		.services__blog--img {
+			width: 400px;
+			height: 250px;
+		}
+		
+		.services__blog--wrap {
+			width: 40%;
+		}
+
+		.services__blog--title {
+			font-size: 26px;
+		}
+
+		.services__blog--desc {
+			font-size: 16px;
+		}
+
+		.warranty__blog--img {
+			width: 400px;
+			height: 250px;
+		}
+
+		.warranty__blog--wrap {
+			width: 40%;
+		}
+
+		.warranty__blog--title {
+			font-size: 36px;
+		}
+
+		.warranty__blog--desc {
+			font-size: 26px;
+			padding-bottom: 20px;
+		}
+
+		.videoWrap__video {
+			width: 500px;
+			height: 260px;
+		}
+
+		.videoWrap__wrap {
+			width: 40%;
+		}
+
+		.videoWrap__title {
+			font-size: 26px;
+		}
+
+		.videoWrap__desc {
+			font-size: 16px;
+		}
+
+		.registerBlog__video {
+			width: 500px;
+			/* height: 260px; */
+		}
+
+		.registerBlog__wrap {
+			width: 45%;
+		}
+
+		.registerBlog__title {
+			font-size: 26px;
+		}
+
+		.registerBlog__desc {
+			font-size: 16px;
+		}
+
+		.contact__form {
+			min-width: 920px;
+		}
+
+		.contact__form--input input {
+			width: 400px;
+		}
+
+		.registerBlog__video img {
+			margin-left: auto;
+		}
+
+	}
+
+	/* Large */
+	@media (max-width: 992px) {
+		.services__blog1 {
+			flex-direction: column-reverse;
+		}
+
+		.services__blog3 {
+			flex-direction: column-reverse;
+		}
+
+		.services__blog--wrap {
+			width: 85%;
+			padding: 50px 50px 0px 50px;
+		}
+
+		.services__blog--button {
+			display: flex;
+			justify-content: center;
+		}
+
+		.services__blog--title {
+			text-align: center;
+		}
+
+		.services__blog--desc {
+			text-align: center;
+		}
+
+		.warranty__blog {
+			flex-direction: column-reverse;
+		}
+
+		.warranty__blog--wrap {
+			width: 85%;
+			padding: 50px 50px 0px 50px;
+		}
+
+		.warranty__blog--button {
+			display: flex;
+			justify-content: center;
+		}
+
+		.warranty__blog--title {
+			text-align: center;
+		}
+
+		.warranty__blog--desc {
+			text-align: center;
+		}
+
+		.videoWrap__wrap {
+			padding: 0px;
+			width: 85%;
+			margin: 0px;
+		}
+
+		.videoWrap__button {
+			display: flex;
+			justify-content: center;
+		}
+		
+		.videoWrap__title {
+			text-align: center;
+		}
+
+		.videoWrap__desc {
+			text-align: center;
+		}
+
+		.registerBlog__wrap {
+			padding: 0px;
+			width: 85%;
+			margin: 0px;
+		}
+
+		.registerBlog__button {
+			display: flex;
+			justify-content: center;
+			margin:20px 0px 50px 0px; 
+		}
+		
+		.registerBlog__title {
+			text-align: center;
+		}
+
+		.registerBlog__desc {
+			text-align: center;
+		}
+
+		.contact__form {
+			min-width: 720px;
+		}
+
+		.contact__form--input input {
+			width: 300px;
+		}
+
+		.registerBlog__contact {
+			justify-content: center;
+		}
+
+		.registerBlog__input input {
+			margin: 30px 5px;
+		}
+	}
+
+	/* Medium */
+	@media (max-width: 768px) {
+		.services__title{
+			text-align: center;
+		}
+
+		.services__title {
+			font-size: 36px;
+		}
+
+		.warranty__blog--title {
+			font-size: 30px;
+		}
+
+		.contact__form {
+			min-width: 520px;
+		}
+
+		.contact__form form {
+			flex-direction: column;
+		}
+
+		.contact__title {
+			font-size: 36px;
+		}
+
+	}
+
+	/* Small */
+	@media (max-width: 576px) {
+
+		.services__blog--img {
+			width: 420px;
+			height: 230px;
+		}
+
+		.services__title {
+			font-size: 30px;
+		}
+
+		.services__blog--title {
+			font-size: 22px;
+		}
+
+		.services__blog--desc {
+			font-size: 14px;
+		}
+		
+		.services__blog--button span {
+			font-size: 18px;
+		}
+
+		.warranty__blog--img {
+			width: 420px;
+			height: 230px;
+		}
+
+		.warranty__blog--desc {
+			font-size: 20px;
+			padding-bottom: 0px;
+		}
+
+		.warranty__blog--button span {
+			font-size: 18px;
+		}
+
+		.videoWrap__video {
+			width: 420px;
+			height: 230px;
+		}
+
+		.videoWrap__title {
+			font-size: 22px;
+		}
+
+		.videoWrap__desc {
+			font-size: 14px;
+		}
+
+		.registerBlog__video {
+			width: 420px;
+			height: 230px;
+		}
+
+		.registerBlog__title {
+			font-size: 22px;
+		}
+
+		.registerBlog__desc {
+			font-size: 14px;
+		}
+
+		.contact__form  {
+			min-width: 420px;
+		}
+
+		.contact__title {
+			font-size: 30px;
+		}
+
+		.registerBlog__contact {
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.registerBlog__input input {
+			margin: 10px 5px;
+		}
+
+	}
+
+	/* Extra small */
+	@media (max-width: 480px) {
+		.services__blog--img {
+			width: 280px;
+			height: 170px;
+			margin: 0px 10px;
+		}
+		
+		.services__title {
+			font-size: 26px;
+		}
+
+		.warranty__blog--img {
+			width: 280px;
+			height: 170px;
+			margin: 0px 10px;
+		}
+
+		.videoWrap__video {
+			width: 280px;
+			height: 180px;
+		}
+
+		.registerBlog__video {
+			width: 280px;
+			height: 180px;
+		}
+
+		.contact__title {
+			font-size: 26px;
+		}
+
+		.contact__form {
+			min-width: 310px;
+		}
+
+		.contact__form--input input {
+			width: 250px;
+		}
+
+		.contact__form--button {
+			padding: 10px 40px;
+		}
+	}
+/* media */
